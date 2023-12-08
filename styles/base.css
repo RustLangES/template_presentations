@@ -1,0 +1,55 @@
+.slidev-layout {
+    background: theme("colors.bg");
+    color: theme("colors.p");
+    font-family: 'Work Sans', sans-serif;
+}
+
+.slidev-vclick-hidden {
+    display: none !important;
+}
+
+h1 {
+    color: theme("colors.text") !important;
+    font-family: 'Alfa Slab One';
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+h1 span.title {
+    color: theme("colors.title");
+}
+
+section {
+    background: theme("colors.bg-dark");
+}
+
+ul li {
+    font-size: 1.25rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+}
+
+.slidev-code-wrapper {
+    font-family: 'FiraCodeNerdFontMono';
+}
+
+@font-face {
+    font-family: "Work Sans";
+    src: url("/fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Alfa Slab One";
+    src: url("/fonts/AlfaSlabOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "FiraCodeNerdFontMono";
+    src: url("/fonts/FiraCodeNerdFontMono-Regular.ttf");
+}
+
+.card {
+    background: theme("colors.bg-light");
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+}

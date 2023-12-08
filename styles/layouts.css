@@ -1,0 +1,50 @@
+.slidev-speakers {
+    /* https://colorzilla.com/gradient-editor/#fdce9a+0,fdce9a+50,fed7aa+50,fed7aa+100 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* background: linear-gradient(-30deg,  #fdce9a 0%,#fdce9a 50%,#fed7aa 50%,#fed7aa 100%); */
+    width: 100%;
+    height: 100%;
+    background: theme("colors.bg");
+}
+
+.left {
+    display: flex;
+    padding: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 100%;
+    background: theme("colors.bg");
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+
+.right {
+    padding: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: theme("colors.bg-dark");
+    -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.slidev-random {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+.slidev-random *:nth-child(1) { grid-area: 3 / 1 / 4 / 2; }
+.slidev-random *:nth-child(2) { grid-area: 2 / 2 / 3 / 3; }
+.slidev-random *:nth-child(3) { grid-area: 4 / 3 / 5 / 4; }
+.slidev-random *:nth-child(4) { grid-area: 2 / 4 / 3 / 5; }
+.slidev-random *:nth-child(5) { grid-area: 3 / 5 / 4 / 6; }
