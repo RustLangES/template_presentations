@@ -1,4 +1,5 @@
 # Template para charlas de la comunidad de RustLangES
+![ezgif com-gif-maker](https://github.com/RustLangES/template_presentations/assets/56278796/0ab6cd23-86fa-4dea-af26-b8d93ef99c23)
 
 ## Guia de Inicio
 Para ejecutar en desarrollo, solo corre
